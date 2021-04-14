@@ -1,0 +1,14 @@
+#pragma once
+#include <string>
+#include <iostream>
+#include "ATarget.hpp"
+
+class BrickWall : public ATarget
+{
+private:
+
+public:
+	BrickWall();
+	virtual ATarget *clone();
+	~BrickWall();
+};
